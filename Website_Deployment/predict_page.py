@@ -9091,7 +9091,7 @@ def show_predict_page():
     "WCIO Nature of Injury Code" : st.selectbox("WCIO Nature of Injury Code", WCIO_nature_code),
     "WCIO Part Of Body Code" : st.selectbox("WCIO Part Of Body Code", WCIO_body_code),
     "Zip Code" : st.selectbox("Zip Code", zip_code),
-    "Age" : st.slider("Age", 14, 80, 20),
+    "Age" : st.slider("Age", 14, 90, 20),
     "C3_Received" : st.selectbox("C3_Received", binary_input),
     "C2_Received" : st.selectbox("C2_Received", binary_input),
     "First_Hearing" : st.selectbox("First_Hearing", binary_input),
